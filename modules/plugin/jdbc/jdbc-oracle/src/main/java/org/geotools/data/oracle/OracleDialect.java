@@ -1151,6 +1151,7 @@ public class OracleDialect extends PreparedStatementSQLDialect {
         // and http://www.oracle.com/technology/oramag/oracle/07-jan/o17asktom.html
         // to understand why we are going thru such hoops in order to get it working
         // The same techinique is used in Hibernate to support pagination
+        // This is a test comment to check I have correctly forked -> Branched and committed to my fork only. Paul Wittle
         
         if(offset == 0) {
             // top-n query: select * from (your_query) where rownum <= n;
